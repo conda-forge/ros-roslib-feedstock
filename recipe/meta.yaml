@@ -9,7 +9,7 @@ source:
   patches:
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('ros-roslib', 'x.x') }}
@@ -31,6 +31,7 @@ requirements:
   run:
     - ros-conda-mutex * melodic
     - ros-conda-base
+    - python
     - ros-catkin
     - ros-rospack
     - rospkg
@@ -45,7 +46,7 @@ test:
 about:
   home: http://ros.org/wiki/roslib
   summary: |
-    Base dependencies and support libraries for ROS. roslib contains many of the common data structures
+    Base dependencies and support libraries for ROS.
   description: |
     Base dependencies and support libraries for ROS. roslib contains many of the
     common data structures and tools that are shared across ROS client library
