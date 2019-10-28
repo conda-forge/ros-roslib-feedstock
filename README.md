@@ -7,7 +7,7 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Base dependencies and support libraries for ROS. roslib contains many of the common data structures
+Summary: Base dependencies and support libraries for ROS.
 
 
 Base dependencies and support libraries for ROS. roslib contains many of the
